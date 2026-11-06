@@ -1,0 +1,33 @@
+# Dependencies (recreated by `npm install`)
+node_modules/
+
+# Build output
+dist/
+*.tsbuildinfo
+.turbo/
+
+# Environment files (secrets) — only the templates are committed
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# Test output
+coverage/
+
+# macOS
+.DS_Store
+
+# Editor (personal settings; shared rules live in .editorconfig / Prettier / ESLint)
+.idea/
+
+# Python (AI service)
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
